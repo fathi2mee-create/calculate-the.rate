@@ -301,9 +301,9 @@
             let eng  = (getNum('engintero') * 0.4) + (getNum('engexam') * 0.6);
 
             // تم تصحيح النسب هنا لتصبح متوافقة مع مجموع 100% (0.2 + 0.2 + 0.6 = 1)
-            let phys = (getNum('physintero') * 0.2) + (getNum('phystp') * 0.2) + (getNum('physexam') * 0.6);
-            let chim = (getNum('chimintero') * 0.2) + (getNum('chimtp') * 0.2) + (getNum('chimexam') * 0.6);
-            let inf  = (getNum('infintero') * 0.2) + (getNum('inftp') * 0.2) + (getNum('infexam') * 0.6);
+            let phys = (getNum('physintero') * 0.2) + (getNum('phystp') * 0.3) + (getNum('physexam') * 0.5);
+            let chim = (getNum('chimintero') * 0.2) + (getNum('chimtp') * 0.3) + (getNum('chimexam') * 0.5);
+            let inf  = (getNum('infintero') * 0.2) + (getNum('inftp') * 0.3) + (getNum('infexam') * 0.5);
 
             // الحساب النهائي بالمعاملات (مجموع المعاملات = 30)
             let totalAverage = (ana*5 + phys*5 + chim*5 + alg*4 + inf*3 + prob*3 + des + eco + hum + fren + eng) / 30;
